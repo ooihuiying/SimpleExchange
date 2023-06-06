@@ -1,11 +1,11 @@
 # SimpleExchange
 
-##### What is this?
+## What is this?
 This is a simple simulation of an order matching engine that matches "buy" and "sell" orders for a stock market.
 A trader can submit several types of orders to a matching engine, which will process and possibly place them into an Order Book.
 The matching engine will support different types of submitted orders, as well as a few other possible actions that a Trader might want to perform.
 
-###### Details
+### Details
 The OB is a list of buy and sell orders. 
 Specifically, it contains 2 lists: a list of Buy orders and a list of Sell orders, sorted in the order of decreasing priority.
 
@@ -30,15 +30,15 @@ If it is a Market order, it will only consist of a Side and a Quantity but it wi
 
 Apart from submitting orders, a trader can Cancel an order, hence removing from the OB. This will be indicated by the first item in a row, eg CXL.
 
-###### Output
+### Output
 For each type of Order, output a single integer representing the total cost of the unit of stock that was traded during the execution of the order. It will be 0 if no stock was traded.
 
 At the end of the sequence of actions, print out the entire OB in 2 lines. Each order will be represented in the format `[Quantity]@[Price]#[Order Id]`
 
 
 
-##### Sample Inputs
-###### Input 1
+### Sample Inputs
+#### Input 1
 
 SUB LO B Ffuj 200 13 
 
@@ -61,7 +61,7 @@ CXL 49Ze
 END
 
 
-###### Output 1
+#### Output 1
 0
 
 0
