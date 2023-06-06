@@ -111,8 +111,6 @@ void OrderBook::executeBuyLimitOrder(Order& newOrder) {
         buyOrders.push(newOrder);
     }
 
-    std::cout << "HI" << std::endl;
-
     std::cout << transaction << std::endl;
 }
 
