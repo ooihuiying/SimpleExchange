@@ -1,0 +1,2 @@
+# Ignore C++ compilation object files
+*.dSYM/
