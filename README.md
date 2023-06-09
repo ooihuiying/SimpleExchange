@@ -1,6 +1,7 @@
 # SimpleExchange
 
 ## What is this?
+I'm currently learning and picking up C++ programming language. This is a simple project to help me get my hands dirty with C++ language.
 This is a simple simulation of an order matching engine that matches "buy" and "sell" orders for a stock market.
 A trader can submit several types of orders to a matching engine, which will process and possibly place them into an Order Book.
 The matching engine will support different types of submitted orders, as well as a few other possible actions that a Trader might want to perform.
